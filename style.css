@@ -1,0 +1,48 @@
+div.container-fluid{
+    /* border: 1px dotted green; */
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+li.list-group-item>a{
+    color: rgb(43, 36, 36);
+}
+
+ol{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin: 0;
+    margin-bottom: -15px;
+}
+
+ol>li.column{
+    font-size: 8px;
+    display: inline-block;
+    color:white;
+    height: 10px;
+    padding: 0 0.5rem;
+    border-radius: 2px;
+    background-color: black;
+}
+
+div.zero-line{
+    font-size: 10px;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+canvas{
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    
+}
+
+main{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
